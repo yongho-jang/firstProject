@@ -15,7 +15,7 @@ spring:
      multipart :
           enabled: true
           location: ${java.io.tmpdir}
-          max-file-size : 200MB
+          max-file-size : 300MB
           max-request-size : 100MB
           file-size-threshold: 1MB
   h2:
